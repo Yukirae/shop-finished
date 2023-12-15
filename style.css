@@ -1,0 +1,147 @@
+.nav-container {
+    display: flex;
+    justify-content: flex-end;
+    gap:30px;
+    padding:20px 50px;
+    font-size: 18px;
+    font-family:Calibri;
+}
+
+.logo-container {
+flex-grow: 1;
+font-weight: bold;
+}
+.logo {
+    height:40px;
+    width: auto;
+    padding:0;
+}
+nav {
+    width:100%;
+    box-shadow: 0 15px 15px -15px rgba(0,0,0,.2);
+}   
+a {
+   text-decoration: none; 
+   color: black;
+}
+a:hover {
+    color: darkred;
+}
+.headtxt {
+    font-family:Calibri;      
+}
+.line {
+    content: "";
+    background-color: darkred;
+    height: 3px;
+    width:50px;
+}
+.txt {
+    font-family: Calibri;
+    font-weight: 400px;
+}
+
+.title {
+    display:flex;
+    flex-direction: column;
+    width:230px;
+    height:150px;
+    align-items: center;
+    padding-top: 20px;
+    gap: 6px;
+}
+.rating {
+    color:rgb(252, 186, 3);
+    font-weight: bold;
+}
+.base {
+    height: 100%;
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    margin-top: 100px;
+    gap: 20px;
+    font-family: Calibri;
+}
+header{
+    margin-left:80px;
+    margin-top: 50px;
+}
+
+
+.name{
+    font-size:18px;
+    font-weight: lighter;
+}
+.price {
+    font-weight: bold;
+    font-size:18px;
+}
+.picture {
+    cursor: pointer;
+    height: 270px;
+    width: 230px;
+}
+.link-container {
+    display: flex;
+    gap: 30px;
+}
+:root {
+    --step--2: clamp(0.6075rem, 0.277rem + 0.8813vw, 0.96rem);
+    --step--1: clamp(0.7294rem, 0.2882rem + 1.1766vw, 1.2rem);
+    --step-0: clamp(0.875rem, 0.2891rem + 1.5625vw, 1.5rem);
+    --step-1: clamp(1.05rem, 0.2766rem + 2.0625vw, 1.875rem);
+    --step-2: clamp(1.26rem, 0.244rem + 2.7094vw, 2.3438rem);
+    --step-3: clamp(1.5119rem, 0.1824rem + 3.5453vw, 2.93rem);
+    --step-4: clamp(1.8144rem, 0.0823rem + 4.6188vw, 3.6619rem);
+    --step-5: clamp(2.1775rem, -0.0725rem + 6vw, 4.5775rem);
+}
+
+@media screen and (max-width: 600px) {
+.link-container{
+    position: absolute;
+    top: 15%;
+    left: 0;
+    width: 100%;
+    height: 17rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+nav{
+    margin-bottom: 65%;
+}
+
+.icons{
+    display: inline-block;
+}
+.Nav-link {
+    border: 3px;
+ 
+}}
+
+.styleform{
+    display: flex;
+    height:80px;
+    width: 800px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25px;
+    border:2px solid darkred;}
+
+  
+.styleform{
+    justify-content: space-evenly;
+}
+.post{
+    margin-top:12px;
+ padding: 5px;
+}
+img.product-image{
+    width: 230px;
+    height: 270px;
+}
